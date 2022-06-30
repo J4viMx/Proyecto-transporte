@@ -3,6 +3,7 @@
 const Saldo = () => {
   return (
     <>
+    <h2 className="text-center font-bold -mt-10 relative">Historial saldo</h2>
     <div className="mb-10">
       <div className="flex justify-around mt-10">
         <p className="font-bold">Saldo:</p>

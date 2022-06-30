@@ -5,7 +5,7 @@ const Resume = () => {
 
   return (
     <div>
-      <img src={tne} alt="tne" className='max-w-full -mt-16 relative z-20' />
+      <img src={tne} alt="tne" className='max-w-full -mt-10 relative z-20' />
 
       <div className='grid grid-cols-2 mt-5'>
         <div className='border-solid border-r-2 border-gray-400'>

@@ -5,9 +5,8 @@ import { Link } from 'react-router-dom'
 const OpcionesPago = () => {
   return (
     <div className='text-center font-bold'>
-      <div className='-mt-20 relative'>
-        <h2 >Monto a pagar</h2>
-        <p>$1.000</p>
+      <div className='-mt-10 relative'>
+        <h2 >Monto a pagar <span>$1.000</span></h2>
       </div>
       <img className='mx-auto mt-10' src={webpay} alt="webpay" />
       <div className='grid grid-cols-2 mt-10 gap-10'>
