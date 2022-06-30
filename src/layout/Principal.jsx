@@ -7,7 +7,10 @@ const Principal = () => {
     <>
       <Header/>
 
-        <Outlet/>
+        <div className='height'>
+          <Outlet/>
+
+        </div>
 
       <Footer/>
 
