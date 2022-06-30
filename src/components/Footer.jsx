@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className="w-full bg-orange-300 h-28 absolute bottom-0 left-0">
+    <div className="w-full bg-orange-300 h-28">
 
         <nav className='grid grid-cols-4 min-h-full'>
             <Link to="/user/tramites" className='flex content-center justify-center'>
