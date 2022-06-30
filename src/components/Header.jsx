@@ -5,7 +5,6 @@ const Header = () => {
 
   const location = useLocation()
 
-  console.log(location)
 
   const navigate = useNavigate()
 
@@ -16,7 +15,7 @@ const Header = () => {
         { location.pathname !== '/user' && <i className="bi bi-arrow-left text-5xl absolute left-10 cursor-pointer" onClick={() => navigate(-1)}/>}
 
         <Link to="/user">
-          <i class="bi bi-house text-5xl absolute right-10 cursor-pointer"></i>
+          <i className="bi bi-house text-5xl absolute right-10 cursor-pointer"></i>
         </Link>
         
 
