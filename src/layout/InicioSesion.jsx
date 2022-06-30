@@ -1,8 +1,9 @@
 import React from 'react'
+import IniciarSesion from '../components/IniciarSesion'
 
 const InicioSesion = () => {
   return (
-    <div>InicioSesion</div>
+    <IniciarSesion/>
   )
 }
 

@@ -6,6 +6,7 @@ import OpcionesPago from './pages/OpcionesPago'
 import Recargar from './pages/Recargar'
 import Tramites from './pages/Tramites'
 import Saldo from './pages/Saldo'
+import ResumenCompra from './pages/ResumenCompra'
 
 import Resume from './pages/Resume'
 
@@ -25,6 +26,7 @@ function App() {
             <Route path='recargar' element={<Recargar/>} />
             <Route path='tramites' element={<Tramites/>} />
             <Route path='saldo' element={<Saldo/>} />
+            <Route path='resumen' element={<ResumenCompra/>} />
         </Route>
 
 

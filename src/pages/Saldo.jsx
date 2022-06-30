@@ -19,7 +19,7 @@ const Saldo = () => {
 
       <div className="flex justify-around items-center mt-10 border-solid border-b-2 border-gray-200 pb-3">
         <div className="flex gap-5">
-          <i class="bi bi-credit-card-2-front text-5xl"></i>
+          <i className="bi bi-credit-card-2-front text-5xl"></i>
           <div className="">
             <p className="font-bold text-lg">Carga</p>
             <p className="text-sm">25/06/22</p>
@@ -30,7 +30,7 @@ const Saldo = () => {
 
       <div className="flex justify-around items-center mt-10 border-solid border-b-2 border-gray-200 pb-3">
         <div className="flex gap-5">
-          <i class="bi bi-truck text-5xl"></i>
+          <i className="bi bi-truck text-5xl"></i>
           <div className="">
             <p className="font-bold text-lg">Viaje</p>
             <p className="text-sm">25/06/22</p>
