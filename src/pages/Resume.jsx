@@ -2,6 +2,7 @@ import tne from '../assets/img/tne.png'
 import sello from '../assets/img/sello.png'
 
 const Resume = () => {
+
   return (
     <div>
       <img src={tne} alt="tne" className='max-w-full -mt-16 relative z-20' />
